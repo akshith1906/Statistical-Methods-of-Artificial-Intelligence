@@ -1,0 +1,1 @@
+ python train_hp.py --project smai-colorization-hp-eval-20 --epochs 10   --centroids_path color_centroids.npy --data_root ./data

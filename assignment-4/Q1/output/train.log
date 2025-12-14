@@ -1,0 +1,61 @@
+2025-11-03 15:41:17,025 - INFO - Logging configured. Output will be saved to output/train.log
+2025-11-03 15:41:21,912 - INFO - Loading data...
+2025-11-03 15:41:21,912 - INFO - Calculating mean and std of Fashion-MNIST training data...
+2025-11-03 15:41:28,478 - INFO - Calculated Mean: 0.2860
+2025-11-03 15:41:28,479 - INFO - Calculated Std: 0.3530
+2025-11-03 15:41:28,514 - INFO - Loading and splitting data...
+2025-11-03 15:41:28,580 - INFO - Total training images: 60000
+2025-11-03 15:41:28,580 - INFO - New training split size: 54000
+2025-11-03 15:41:28,582 - INFO - Validation split size: 6000
+2025-11-03 15:41:28,583 - INFO - Test split size: 10000
+2025-11-03 15:41:28,584 - INFO - 
+DataLoaders created successfully.
+2025-11-03 15:41:28,584 - INFO - Initializing model...
+2025-11-03 15:41:28,667 - INFO - Using device: cuda
+2025-11-03 15:41:28,920 - INFO - Starting training for 10 epochs...
+2025-11-03 15:41:28,920 - INFO - Hyperparameters: {'project_name': 'fashion-mnist-multitask', 'run_name': 'run_5_lambda_0.25_1', 'epochs': 10, 'batch_size': 64, 'validation_split': 0.1, 'learning_rate': 0.001, 'optimizer': 'Adam', 'dropout_rate': 0.25, 'lambda1': 0.25, 'lambda2': 1.0}
+2025-11-03 15:41:28,921 - INFO - 
+--- Epoch 1/10 ---
+2025-11-03 15:41:48,282 - INFO - Train: Total Loss=0.1979, Class Loss=0.7576, Reg Loss=0.0085
+2025-11-03 15:41:49,646 - INFO - Validate: Total Loss=0.1189, Accuracy=0.8272, MAE=0.0179, RMSE=0.0222
+2025-11-03 15:41:49,647 - INFO - 
+--- Epoch 2/10 ---
+2025-11-03 15:42:08,540 - INFO - Train: Total Loss=0.1408, Class Loss=0.5601, Reg Loss=0.0008
+2025-11-03 15:42:09,873 - INFO - Validate: Total Loss=0.1054, Accuracy=0.8403, MAE=0.0111, RMSE=0.0147
+2025-11-03 15:42:09,874 - INFO - 
+--- Epoch 3/10 ---
+2025-11-03 15:42:28,569 - INFO - Train: Total Loss=0.1265, Class Loss=0.5033, Reg Loss=0.0007
+2025-11-03 15:42:29,901 - INFO - Validate: Total Loss=0.0959, Accuracy=0.8510, MAE=0.0128, RMSE=0.0159
+2025-11-03 15:42:29,902 - INFO - 
+--- Epoch 4/10 ---
+2025-11-03 15:42:48,592 - INFO - Train: Total Loss=0.1182, Class Loss=0.4705, Reg Loss=0.0006
+2025-11-03 15:42:49,936 - INFO - Validate: Total Loss=0.0903, Accuracy=0.8685, MAE=0.0122, RMSE=0.0154
+2025-11-03 15:42:49,937 - INFO - 
+--- Epoch 5/10 ---
+2025-11-03 15:43:08,619 - INFO - Train: Total Loss=0.1133, Class Loss=0.4509, Reg Loss=0.0006
+2025-11-03 15:43:09,944 - INFO - Validate: Total Loss=0.0828, Accuracy=0.8715, MAE=0.0114, RMSE=0.0149
+2025-11-03 15:43:09,945 - INFO - 
+--- Epoch 6/10 ---
+2025-11-03 15:43:28,715 - INFO - Train: Total Loss=0.1088, Class Loss=0.4325, Reg Loss=0.0006
+2025-11-03 15:43:30,043 - INFO - Validate: Total Loss=0.0795, Accuracy=0.8830, MAE=0.0198, RMSE=0.0237
+2025-11-03 15:43:30,043 - INFO - 
+--- Epoch 7/10 ---
+2025-11-03 15:43:48,846 - INFO - Train: Total Loss=0.1052, Class Loss=0.4186, Reg Loss=0.0006
+2025-11-03 15:43:50,172 - INFO - Validate: Total Loss=0.0763, Accuracy=0.8883, MAE=0.0104, RMSE=0.0139
+2025-11-03 15:43:50,173 - INFO - 
+--- Epoch 8/10 ---
+2025-11-03 15:44:09,037 - INFO - Train: Total Loss=0.1013, Class Loss=0.4027, Reg Loss=0.0006
+2025-11-03 15:44:10,375 - INFO - Validate: Total Loss=0.0766, Accuracy=0.8893, MAE=0.0162, RMSE=0.0203
+2025-11-03 15:44:10,376 - INFO - 
+--- Epoch 9/10 ---
+2025-11-03 15:44:28,998 - INFO - Train: Total Loss=0.0991, Class Loss=0.3940, Reg Loss=0.0006
+2025-11-03 15:44:30,342 - INFO - Validate: Total Loss=0.0705, Accuracy=0.8965, MAE=0.0139, RMSE=0.0176
+2025-11-03 15:44:30,343 - INFO - 
+--- Epoch 10/10 ---
+2025-11-03 15:44:49,294 - INFO - Train: Total Loss=0.0967, Class Loss=0.3847, Reg Loss=0.0006
+2025-11-03 15:44:50,616 - INFO - Validate: Total Loss=0.0725, Accuracy=0.8950, MAE=0.0159, RMSE=0.0199
+2025-11-03 15:44:50,618 - INFO - 
+Training finished. Running on test set...
+2025-11-03 15:44:52,748 - INFO - Test: Accuracy=0.8791, MAE=0.0159, RMSE=0.0199
+2025-11-03 15:44:52,773 - INFO - Model saved to output/run_5_lambda_0.25_1.pth
+2025-11-03 15:44:52,773 - INFO - Run finished.
